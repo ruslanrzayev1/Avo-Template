@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  width: 100%;
+  background-color: black;
+
+  .navbarCnt {
+    width: 75%;
+
+    a {
+      font-family: "Nunito Sans", Arial, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #ffffff;
+
+      &:hover {
+        color: #ffffff;
+      }
+
+      span {
+        color: #d1002c;
+      }
+    }
+
+    .navUl {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 18px;
+
+      li {
+        .home {
+          color: #d1002c !important;
+        }
+
+        a {
+          font-family: "Nunito Sans", Arial, sans-serif;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 23px;
+          color: rgba(255, 255, 255, 0.6);
+          transition: 0.4s ease;
+
+          &:hover {
+            color: #d1002c;
+          }
+        }
+      }
+    }
+    .searchInp {
+      height: 40px;
+      min-width: 200px;
+      border-radius: 30px;
+      background-color: rgba(255, 255, 255, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      #searchInp {
+        width: 80%;
+        min-height: 30px;
+        border: transparent;
+        background-color: transparent;
+        margin-left: 10px;
+
+        &::placeholder {
+          font-family: "Nunito Sans", Arial, sans-serif;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 23px;
+          color: rgba(255, 255, 255, 0.6);
+        }
+      }
+
+      #searchBtn {
+        background-color: #d1002c;
+        border-top-right-radius: 30px;
+        width: 20%;
+        min-height: 40px;
+        border: none;
+        color: rgba(255, 255, 255, 0.757);
+        border-bottom-right-radius: 30px;
+      }
+    }
+  }
+}
+
+#mySec {
+  width: 100%;
+  height: 651px;
+  background-color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    font-family: poppins;
+    font-size: 40px;
+    color: red;
+  }
+}
+
+#myForm1 {
+  width: 40%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  .inputcnt {
+    width: 70%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    input {
+      width: 100%;
+      height: 100%;
+      border: 2px solid red;
+      background-color: black;
+      color: red;
+      &::placeholder {
+        color: red;
+      }
+    }
+    
+  }
+  button {
+    width: 22%;
+    height: 12%;
+    color: red;
+    background-color: black;
+    border: 2px solid red;
+  }
+}

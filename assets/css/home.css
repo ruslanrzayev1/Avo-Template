@@ -1,0 +1,632 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute !important;
+  min-height: 100px;
+  width: 100%;
+  background-color: transparent;
+}
+.navBar .navbarCnt {
+  width: 75%;
+}
+.navBar .navbarCnt a {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.navBar .navbarCnt a:hover {
+  color: #ffffff;
+}
+.navBar .navbarCnt a span {
+  color: #d1002c;
+}
+.navBar .navbarCnt .navUl {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 18px;
+}
+.navBar .navbarCnt .navUl li .home {
+  color: #d1002c;
+}
+.navBar .navbarCnt .navUl li a {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.4s;
+}
+.navBar .navbarCnt .navUl li a:hover {
+  color: #d1002c;
+}
+.navBar .navbarCnt .searchInp {
+  height: 40px;
+  min-width: 200px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navBar .navbarCnt .searchInp #searchInp {
+  width: 80%;
+  min-height: 30px;
+  border: transparent;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.navBar .navbarCnt .searchInp #searchInp::placeholder {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.navBar .navbarCnt .searchInp #searchBtn {
+  background-color: #d1002c;
+  border-top-right-radius: 30px;
+  width: 20%;
+  min-height: 40px;
+  border: none;
+  color: rgba(255, 255, 255, 0.757);
+  border-bottom-right-radius: 30px;
+}
+
+#minimalWebsite {
+  min-height: 850px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/images/bg_1\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+}
+#minimalWebsite .minimalWebsitetxt {
+  min-height: 300px;
+  width: 80%;
+  align-items: start;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+#minimalWebsite .minimalWebsitetxt h1 {
+  width: 75%;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+}
+#minimalWebsite .minimalWebsitetxt p {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  min-height: 80px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 23px;
+  width: 73%;
+}
+#minimalWebsite .minimalWebsitetxt button {
+  width: 29%;
+  min-height: 55px;
+  border: none;
+  background-color: #d1002c;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+}
+#minimalWebsite .successfulProjects {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  justify-content: center;
+}
+#minimalWebsite .successfulProjects div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+#minimalWebsite .successfulProjects div h4 {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 900;
+}
+#minimalWebsite .successfulProjects div .redLine {
+  height: 40px;
+  background-color: #d1002c;
+  width: 5px;
+}
+#minimalWebsite .successfulProjects p {
+  color: rgba(255, 255, 255, 0.4);
+  min-height: 80px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 23px;
+  width: 22%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  text-align: end;
+  min-height: 100px;
+}
+
+@media screen and (max-width: 991px) {
+  #minimalWebsite .minimalWebsitetxt h1 {
+    font-size: 20px;
+  }
+  #minimalWebsite .minimalWebsitetxt p {
+    font-size: 12px;
+  }
+  #minimalWebsite .yearsExperience h4 {
+    font-size: 20px;
+  }
+  #minimalWebsite .yearsExperience p {
+    font-size: 12px;
+  }
+}
+#aboutUS {
+  width: 100%;
+  min-height: 1050px;
+  display: flex;
+  justify-content: center;
+}
+#aboutUS .aboutUsTxt {
+  min-height: 200px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+#aboutUS .aboutUsTxt h2 {
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.8);
+  min-height: 80px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 800;
+}
+#aboutUS .aboutUsFeatures {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#aboutUS .aboutUsFeatures .features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 18%;
+  min-height: 200px;
+}
+#aboutUS .aboutUsFeatures .features i {
+  font-size: 60px;
+  color: #000000;
+}
+#aboutUS .aboutUsFeatures .features h6 {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  min-height: 40px;
+  display: flex;
+  align-items: end;
+}
+#aboutUS .welcomeToAvo {
+  display: flex;
+  width: 90%;
+  min-height: 510px;
+  align-items: end;
+  text-align: end;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#aboutUS .welcomeToAvo h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+  width: 85%;
+}
+#aboutUS .welcomeToAvo p {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #a0a0b4;
+  width: 96%;
+}
+#aboutUS .welcomeToAvo .farFar {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+}
+#aboutUS .welcomeToAvo .farFar .engineTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#aboutUS .welcomeToAvo .farFar .engineTxt span {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 300;
+  color: #d1002c;
+}
+#aboutUS .welcomeToAvo .farFar .engineTxt h5 {
+  width: 60%;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+#aboutUS .welcomeToAvo .farFar .far {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  text-align: start;
+}
+#aboutUS .welcomeToAvo .farFar .far p {
+  width: 60%;
+}
+#aboutUS .searchEngineImg {
+  width: 100%;
+  min-height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#aboutUS .searchEngineImg img {
+  width: 90%;
+  min-height: 330px;
+}
+#aboutUS .searchEngineImg .farFar {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#aboutUS .searchEngineImg .farFar .engineTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#aboutUS .searchEngineImg .farFar .engineTxt span {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 300;
+  color: #d1002c;
+}
+#aboutUS .searchEngineImg .farFar .engineTxt h5 {
+  width: 60%;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+#aboutUS .searchEngineImg .farFar .far {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  text-align: start;
+}
+#aboutUS .searchEngineImg .farFar .far p {
+  width: 72%;
+}
+#aboutUS .searchEngineLastTxt {
+  width: 100%;
+  min-height: 510px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#aboutUS .searchEngineLastTxt p {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 500;
+  width: 87%;
+  color: #a0a0b4;
+}
+#aboutUS .searchEngineLastTxt button {
+  width: 36%;
+  min-height: 35px;
+  border: none;
+  border-radius: 7px;
+  background-color: #d1002c;
+  color: #ffffff;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+}
+#aboutUS .searchEngineLastTxt .farFar {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#aboutUS .searchEngineLastTxt .farFar .engineTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#aboutUS .searchEngineLastTxt .farFar .engineTxt span {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 300;
+  color: #d1002c;
+}
+#aboutUS .searchEngineLastTxt .farFar .engineTxt h5 {
+  width: 60%;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+#aboutUS .searchEngineLastTxt .farFar .far {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+  text-align: start;
+}
+#aboutUS .searchEngineLastTxt .farFar .far p {
+  width: 65%;
+}
+
+@media screen and (max-width: 769px) {
+  #aboutUS {
+    width: 100%;
+  }
+  #aboutUS .aboutUsFeatures {
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 100px;
+  }
+  #aboutUS .aboutUsFeatures .features {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #aboutUS .welcomeToAvo h3 {
+    font-size: 20px;
+  }
+  #aboutUS .welcomeToAvo p {
+    font-size: 12px;
+  }
+  #aboutUS .searchEngineLastTxt p {
+    font-size: 12px;
+  }
+}
+#clients {
+  min-height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#clients .clientsTxt {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+}
+#clients .clientsTxt h2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.8);
+  min-height: 80px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 800;
+}
+#clients .clientsAboutTxt {
+  background-color: #f3f3f3;
+  border-radius: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+#clients .clientsAboutTxt p {
+  color: #a0a0b4;
+  font-weight: 400;
+  width: 70%;
+}
+#clients .clientsAboutTxt img {
+  min-height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+#clients .clientsAboutTxt .marketingManager {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#clients .clientsAboutTxt .marketingManager h5 {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+#clients .clientsAboutTxt .marketingManager span {
+  color: #b3b3b3;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#recentBlog {
+  min-height: 650px;
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+}
+#recentBlog .recentBlogTxt {
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#recentBlog .recentBlogTxt h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.8);
+  min-height: 100px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 800;
+}
+#recentBlog #homeProdCnt {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#recentBlog #homeProdCnt .miniDiv {
+  width: 33%;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#recentBlog #homeProdCnt .miniDiv img {
+  width: 95%;
+}
+#recentBlog #homeProdCnt .miniDiv h2 {
+  color: #141517;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: poppins;
+}
+#recentBlog #homeProdCnt .miniDiv button {
+  background-color: #d1002c;
+  font-size: 14px;
+  line-height: 57px;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  transition: 0.5s;
+  width: 25%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#recentBlog #homeProdCnt .miniDiv button:hover {
+  background-color: transparent;
+  color: #d1002c;
+  border: 1px solid #d1002c;
+}
+#recentBlog .loadMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+}
+#recentBlog .loadMore #loadMore {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 27px;
+  font-weight: 500;
+  min-width: 180px;
+  min-height: 57px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 1px solid #000000;
+}
+
+@media screen and (max-width: 991px) {
+  #recentBlog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  #recentBlog #homeProdCnt {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #recentBlog #homeProdCnt .miniDiv {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #recentBlog #homeProdCnt .miniDiv img {
+    width: 60%;
+  }
+  #recentBlog #homeProdCnt .miniDiv button {
+    font-size: 9px;
+  }
+}
+footer {
+  width: 100%;
+  min-height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+footer p {
+  color: #b3b3b3;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+footer p span {
+  color: #d1002c;
+  cursor: pointer;
+}

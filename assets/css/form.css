@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  width: 100%;
+  background-color: black;
+}
+.navBar .navbarCnt {
+  width: 75%;
+}
+.navBar .navbarCnt a {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.navBar .navbarCnt a:hover {
+  color: #ffffff;
+}
+.navBar .navbarCnt a span {
+  color: #d1002c;
+}
+.navBar .navbarCnt .navUl {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 18px;
+}
+.navBar .navbarCnt .navUl li .home {
+  color: #d1002c !important;
+}
+.navBar .navbarCnt .navUl li a {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.4s ease;
+}
+.navBar .navbarCnt .navUl li a:hover {
+  color: #d1002c;
+}
+.navBar .navbarCnt .searchInp {
+  height: 40px;
+  min-width: 200px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navBar .navbarCnt .searchInp #searchInp {
+  width: 80%;
+  min-height: 30px;
+  border: transparent;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.navBar .navbarCnt .searchInp #searchInp::placeholder {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.navBar .navbarCnt .searchInp #searchBtn {
+  background-color: #d1002c;
+  border-top-right-radius: 30px;
+  width: 20%;
+  min-height: 40px;
+  border: none;
+  color: rgba(255, 255, 255, 0.757);
+  border-bottom-right-radius: 30px;
+}
+
+#mySec {
+  width: 100%;
+  height: 651px;
+  background-color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#mySec h2 {
+  font-family: poppins;
+  font-size: 40px;
+  color: red;
+}
+
+#myForm1 {
+  width: 40%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+#myForm1 .inputcnt {
+  width: 70%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+}
+#myForm1 .inputcnt input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  background-color: black;
+  color: red;
+}
+#myForm1 .inputcnt input::placeholder {
+  color: red;
+}
+#myForm1 button {
+  width: 22%;
+  height: 12%;
+  color: red;
+  background-color: black;
+  border: 2px solid red;
+}
